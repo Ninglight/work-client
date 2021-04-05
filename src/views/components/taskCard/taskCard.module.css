@@ -1,0 +1,27 @@
+.card {
+    border-radius: 6px;
+    background-color: var(--gui-color-white);
+    transition: all .4s ease-in-out;
+    padding: 16px 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+}
+
+.card:hover:not(.disabled) {
+    transform: translate3d(0, -6px, 0);
+    box-shadow: 0px 6px 24px 8px rgba(0,0,0,0.08);
+}
+
+.disabled {
+    opacity: 0.7;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.footer {
+
+}

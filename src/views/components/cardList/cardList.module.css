@@ -1,0 +1,10 @@
+.list {
+    padding: 24px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 6px;
+    height: 100%;
+}
+
+.list > *:not(:last-child) {
+    margin-bottom: 24px;
+}
